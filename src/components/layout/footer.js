@@ -20,7 +20,7 @@ export default function Login() {
 
   return (
     <footer className="bg-black w-full">
-      <div className="w-8/12 mx-auto">
+      <div className="w-9/12 mx-auto">
         <figure className="">
           <img className="" src="images/logo.png" />
           <figcaption className="">
