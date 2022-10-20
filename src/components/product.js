@@ -7,7 +7,7 @@ export default function product() {
     "https://www.ocu.org/-/media/ta/images/qr-code.png?rev=2e1cc496-40d9-4e21-a7fb-9e2c76d6a288&hash=AF7C881FCFD0CBDA00B860726B5E340B&mw=960";
 
   return (
-    <figure className="p-3 w-full duration-300 transform hover:scale-105 text-white hover:text-black cursor-pointer hover:bg-white">
+    <figure className="rounded-md hover:shadow-lg hover:shadow-pink-500/50 p-4 w-full duration-100 transform hover:scale-110 delay-500 text-white hover:text-black cursor-pointer bg-gradiant hover:-translate-y-5">
       <img
         className="w-full h-44 xl:h-64 object-cover"
         src={product}
